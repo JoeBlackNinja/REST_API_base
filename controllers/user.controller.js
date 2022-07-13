@@ -5,7 +5,7 @@ const usersGet = (req, res = response) => {
     res.json({
         message : 'GET api - response',
         city,
-        illness
+        country
     });
 }
 
